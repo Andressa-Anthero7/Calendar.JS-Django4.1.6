@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento</title>
+</head>
+<body>
+
+        {% if agenda %}
+            <div>{{agenda.title}} - Data : {{agenda.data}}</div>
+        {% endif %}
+
+</body>
+</html>
